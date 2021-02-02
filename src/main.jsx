@@ -2,12 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
-import { logEnv } from "./logEnv";
 
-import Worker from "./worker?worker";
+import Worker from "./test?worker";
 new Worker();
-
-logEnv();
 
 ReactDOM.render(
   <React.StrictMode>
